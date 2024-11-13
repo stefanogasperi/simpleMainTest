@@ -1,1 +1,1 @@
-- partito dall'archetype di maven central: maven-archetype-simple
+- partito da: maven-archetype-simple
