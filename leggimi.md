@@ -1,0 +1,1 @@
+- partito da: maven-archetype-simple
