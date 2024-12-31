@@ -1,7 +1,10 @@
 package com.gas.edu.thread.blockingqueue.producerconsumer;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.concurrent.BlockingQueue;
 
+@Slf4j
 public class Consumer implements Runnable {
     private final BlockingQueue queue;
     final String name;
@@ -17,7 +20,7 @@ public class Consumer implements Runnable {
             }
     }
     void consume(String x) {
-        System.out.println("consumed by #"+name+" => "+x);
+        log.info("consumed by #{} => {}",name,x);
         //...
     }
 }
